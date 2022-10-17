@@ -25,6 +25,10 @@ nav
     display: flex;
     justify-content: space-evenly;   
 }
+a:hover
+{
+    color: #0065FC;
+}
 /*************************************** TROUVEZ VOTRE HEBERGEMENTS ************************************/
 
 #first-h2
@@ -198,6 +202,18 @@ form
 {
     color:#F2F2F2
 }
+
+#bop
+{
+    display: flex;
+    align-items: flex-end;
+    height: 48px
+}
+#bop2
+{
+    display: flex;
+    align-items: flex-end;
+}
 .icon-div
 {
     margin-left: 15px;
@@ -269,6 +285,10 @@ form
     margin-left: 50px;
     width: 30%;
 }
+#eee2
+{
+    height: auto;
+}
 #head-section
 {
     display: flex;
@@ -296,8 +316,9 @@ form
 .second-img-div
 {
     background-color:#FFF;
-    border: #FFF solid 5px;
+    border: #FFF solid 2px;
     width: 343px;
+    height: 139px;
     border-radius: 20px;
     margin-left: 30px;
     margin-bottom: 40px;
@@ -329,10 +350,14 @@ form
 }
 .third-img
 {
-    border:#F2F2F2 solid 2px;
+    /*border:#F2F2F2 solid 2px;*/
     border-radius: 20px;
-    box-shadow: 3px 3px 10px #F2F2F2;
-    margin-right:45px;
+    /*box-shadow: 3px 3px 10px #F2F2F2;*/
+    margin-right:48px;
+}
+.img-div, .third-img, .img-div2, .img-div3, .img-div4, .img-div5, .img-div6
+{
+    box-shadow: 2px 2px 15px darkgrey;
 }
 .third-p
 {
