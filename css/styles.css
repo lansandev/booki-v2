@@ -4,10 +4,13 @@ body
     background-color: #FFF;
     max-width: 1400px;
 }
+.img-div, .third-img, .img-div-margin
+{
+    box-shadow: 2px 2px 15px darkgrey;
+}
 /*************************************** HEADER ************************************/
 header
 {
-    /*border: solid black 4px;*/
     display: flex;
     align-items: flex-end;
 }
@@ -29,28 +32,32 @@ a:hover
 {
     color: #0065FC;
 }
-/*************************************** TROUVEZ VOTRE HEBERGEMENTS ************************************/
+a
+{
+    color: black;
+    text-decoration: none;
+}
 
-#first-h2
+/*************************************** TROUVEZ VOTRE HEBERGEMENTS ************************************/
+#search-h2
 {
     margin-left: 50px;
     margin-top: 63px;
     margin-bottom: 8px;
 }
-#first-p
+#search-p
 {
     margin-left: 50px;
     margin-top: 0;
 }
-#bgd-icon
+#search-icon
 {
     width: 50px;
     height: 49px;
     background: #F2F2F2;
-    border: 1 solid #F2F2F2;
+    border: solid 1px #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     margin-left: 50px;
-    /*margin-top: 20px;*/
 }
 .fas
 {
@@ -62,15 +69,12 @@ a:hover
 {
     width: 185px;
     border: solid 1px #F2F2F2;
-
 }
 form
 {
-    
     display: flex;
 }
-
-.btn-search
+#btn-search
 {
     background-color: #0065FC;
     border: none;
@@ -82,50 +86,53 @@ form
 }
 
 /*************************************** FILTRES ************************************/
-
 #title-filter
 {
     margin-left: 50px;
     margin-top: 46px;
 }
-#main-filter-div
+#global-filter-div
 {
     display: flex;
 }
-#main-filter-div .fa-solid
+#global-filter-div .fa-solid
 {
     font-size: larger;
     margin: 46px 20px auto auto;
-    color: #0065FC;
-    
+    color: #0065FC; 
 }
-
 .filter-div
 {
     display: flex;
     margin-left: 60px;
 }
-
-
+.border
+{
+    border: solid 2px #F2F2F2;
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    margin-top: 35px;
+    margin-left: -15px;
+    position: absolute;
+}
+.familial-border
+{
+    width: 140px;   
+}
+.animaux-border
+{
+    width: 235px;
+}
 .filter
 {
     margin-top: 46px;
 }
 
-/*#filter-div1
-{
-    
-    display: flex;
-    margin-top: 22px;
-    border: #af1111 solid 2px;
-    border-radius: 20px;
-    height: 20px;
-
-}*/
 /*********************************** INFO P *********************************/
 #info-div
-{ display: flex;
-   
+{ 
+    display: flex;
 }
 #info-p
 {
@@ -133,12 +140,10 @@ form
 }
 .fa-info
 {
-    
     color: black;
     font-size: smaller;
-    
 }
-#icon-div-test
+#icon-info
 {
     margin-left: 50px;
     margin-top: 10px;
@@ -156,7 +161,6 @@ form
 {
     display: flex;
 }
-
 #first-section
 {
     background-color: #F2F2F2;
@@ -179,7 +183,6 @@ form
     flex-wrap: wrap;
     width: auto;
     justify-content: space-evenly;
-
 }
 .img-div-p
 {
@@ -187,7 +190,6 @@ form
     margin-top: 10px;
     font-weight: bold;
     margin-bottom: 0%;
-    
 }
 .first-section-p
 {
@@ -203,17 +205,6 @@ form
     color:#F2F2F2
 }
 
-#bop
-{
-    display: flex;
-    align-items: flex-end;
-    height: 48px
-}
-#bop2
-{
-    display: flex;
-    align-items: flex-end;
-}
 .icon-div
 {
     margin-left: 15px;
@@ -223,53 +214,18 @@ form
     background-color:#FFF;
     border: #FFF solid 5px;
     height: auto;
-    border-radius: 25px;
-    
-    
+    border-radius: 25px; 
 }
-.img-div2
+.img-div-margin
 {
-    background-color:#FFF;
-    border: #FFF solid 5px;
-    border-radius: 25px;
-    
-}
-.img-div3
-{
-    background-color:#FFF;
-    border: #FFF solid 5px;
-    border-radius: 25px;
-}
-.img-div4
-{
-    background-color:#FFF;
-    border: #FFF solid 5px;
-    border-radius: 25px;
     margin-top: 30px;
 }
-.img-div5
+.first-img
 {
-    background-color:#FFF;
-    border: #FFF solid 5px;
-    border-radius: 25px;
-    margin-top: 30px;
-}
-.img-div6
-{
-    background-color:#FFF;
-    border: #FFF solid 5px;
-    border-radius: 25px;
-    margin-top: 30px;
-    
-}
-#first-img
-{
-    
     width: 246px;
     height: 124px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
-    
 }
 #see-more
 {
@@ -277,17 +233,12 @@ form
     margin-top: 40px;
 }
 /********************************* SECOND SECTION ***********************/
-
 #second-section
 {
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-left: 50px;
     width: 30%;
-}
-#eee2
-{
-    height: auto;
 }
 #head-section
 {
@@ -299,11 +250,6 @@ form
     margin-left: 120px;
     color: #0065FC;
 }
-/*#second-section-div
-{
-    display: flex;
-    flex-direction: column;
-}*/
 .second-section-img
 {
     object-fit: cover;
@@ -323,9 +269,18 @@ form
     margin-left: 30px;
     margin-bottom: 40px;
     display: flex;
-
+    box-shadow: 2px 2px 15px darkgray;
 }
-.right-star
+.second-card-icon, .second-card-icon-bis
+{
+    display: flex;
+    align-items: flex-end;
+}
+.second-card-icon-bis
+{
+    height: 48px
+}
+.margin-star
 {
     margin-top: 50px;
     margin-left: 15px;
@@ -335,6 +290,11 @@ form
 {
     margin-left: 50px;
 }
+#third-section-h3
+{
+    font-size: 22px;
+    font-weight: 700;
+}
 #third-img-div
 {
     display: flex;
@@ -342,7 +302,7 @@ form
     margin-bottom: 60px;
     padding-left: 45px;
 }
-#third-section-img
+.third-section-img
 {
     width: 300px;
     height: 444px;
@@ -350,15 +310,11 @@ form
 }
 .third-img
 {
-    /*border:#F2F2F2 solid 2px;*/
     border-radius: 20px;
-    /*box-shadow: 3px 3px 10px #F2F2F2;*/
     margin-right:48px;
+    padding-bottom: 2px;
 }
-.img-div, .third-img, .img-div2, .img-div3, .img-div4, .img-div5, .img-div6
-{
-    box-shadow: 2px 2px 15px darkgrey;
-}
+
 .third-p
 {
     padding-left: 20px;
@@ -373,12 +329,6 @@ footer
     height: 225px;
     margin-left: 48px;
 }
-#third-section-h3
-{
-    font-size: 22px;
-    font-weight: 700;
-}
-
 h4
 {
     margin-top: 45px;
