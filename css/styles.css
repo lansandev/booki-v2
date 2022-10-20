@@ -27,7 +27,7 @@ nav
     margin-left: 1000px;
     display: flex;
     justify-content: space-evenly;
-    box-sizing: content-box;   
+    /*box-sizing: content-box; */  
 }
 .a-color
 {
