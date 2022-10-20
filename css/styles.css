@@ -26,11 +26,18 @@ nav
     width: 500px;
     margin-left: 1000px;
     display: flex;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
+    box-sizing: content-box;   
 }
-a:hover
+.a-color
+{
+    padding-top: 62px;
+}
+.a-color:hover
 {
     color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 60px;
 }
 a
 {
@@ -128,7 +135,11 @@ form
 {
     margin-top: 46px;
 }
-
+.border:hover
+{
+    background-color: #0065fc3e;
+    /*background-color: #DEEBFF;*/
+}
 /*********************************** INFO P *********************************/
 #info-div
 { 
@@ -199,6 +210,7 @@ form
 {
     font-size: 15px;
     color: #0065FC;
+    margin-right: -2px;
 }
 .grey-star
 {
@@ -257,21 +269,21 @@ form
     height: 130px;
     border-radius: 20px 0 0 20px;
     margin-left: 2px;
-    margin-top: 4px;
+    margin-top: 2px;
 }
 .second-img-div
 {
     background-color:#FFF;
     border: #FFF solid 2px;
     width: 343px;
-    height: 139px;
-    border-radius: 20px;
+    height: 135px;
+    border-radius: 25px;
     margin-left: 30px;
     margin-bottom: 40px;
     display: flex;
     box-shadow: 2px 2px 15px darkgray;
 }
-.second-card-icon, .second-card-icon-bis
+.second-card-icon-bis
 {
     display: flex;
     align-items: flex-end;
@@ -279,6 +291,10 @@ form
 .second-card-icon-bis
 {
     height: 48px
+}
+.margin-right-star
+{
+    margin-right: 2px;
 }
 .margin-star
 {
