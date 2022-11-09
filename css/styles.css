@@ -370,6 +370,10 @@ ul
         width: 90%;
         margin-bottom: 53px;
     }
+    nav
+    {
+        margin-left: 530px;
+    }
 
     .section-h3
     {
@@ -408,9 +412,10 @@ ul
     {
         width: 270px;
         height: 144px;
+        margin-left: 25px;
     }
 
-    .res
+    .test
     {
         display: flex;
     }
@@ -425,8 +430,31 @@ ul
         height: 24px;
     }
 
+    .third-img
+    {
+        margin-right: 55px;
+    }
+    #third-img-div
+    {
+        padding-left: 0px;
+    }
+
     footer
     {
         width: 90%;
+        padding-left: 0px;
+    }
+    #media-footer
+    {
+        margin-left: 60px;
+        margin-right: 100px;
+    }
+    #media-footer2
+    {
+        margin-right: 100px;
+    }
+    li
+    {
+        margin-right: 0px;
     }
 }
