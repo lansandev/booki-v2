@@ -361,3 +361,72 @@ ul
 {
     padding-left: 0%;
 }
+
+/****************************************************************/
+@media screen and (max-width: 1024px)
+{
+    #first-section
+    {
+        width: 90%;
+        margin-bottom: 53px;
+    }
+
+    .section-h3
+    {
+        margin-right: 522px;
+    }
+    .third-section-img
+    {
+        height: 205px;
+        width: 190px;
+    }
+    .third-img
+    {
+        height: 276px;
+    }
+    #main-section-div
+    {
+        display: block;
+    }
+    .third-p
+    {
+        margin-top: 25px;
+    }
+
+    .margin-star
+    {
+        
+        margin-top: 28px;
+    }
+
+    #second-section
+    {
+        width: 90%;
+    }
+
+    .second-card
+    {
+        width: 270px;
+        height: 144px;
+    }
+
+    .res
+    {
+        display: flex;
+    }
+
+    .second-section-img
+    {
+        height: 140px;
+    }
+
+    .second-card-icon
+    {
+        height: 24px;
+    }
+
+    footer
+    {
+        width: 90%;
+    }
+}
